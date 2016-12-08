@@ -3,9 +3,9 @@ sidebarLayout(
   sidebarPanel(
     
     sliderInput("shares", label = "Number of Shares", max = 1000, min = 100, value = 100, step = 100),
-    sliderInput("price", label = "Price Per Share", max = 200, min = 1, value = 1, step = 1),
-    sliderInput("initial", label = "Initial Margin", max = 100, min = 50, value = .1),
-    sliderInput("newprice",label = "New Stock Price", max = 200, min = 1, value = 1)
+    sliderInput("price", label = "Price Per Share", max = 200, min = 1, value = 50, step = 1),
+    sliderInput("initial", label = "Initial Margin", max = .100, min = .50, value = .6,step = .05),
+    sliderInput("newprice",label = "New Stock Price", max = 200, min = 1, value = 55,step = 1)
     
     
   ),
